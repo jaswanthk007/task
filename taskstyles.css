@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*Nav logo size*/
+.logo-size {
+    height: 40px;
+    width: 160px;
+}
+
+/*CTA Button*/
+.get-a-quote-button {
+    color: #FFFFFF;
+    background-color: #ED842E;
+    border-radius: 15px;
+    border-width: 0;
+    height: 35px;
+    width: 150px;
+
+}
+
+/*section 1 section 2 section 3*/
+
+#hero-section {
+    width: 100%;
+    height: 60vh;
+    background: #fff;
+    padding-top: 0px;
+}
+
+#hero-section h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+
+    color: #3e4450;
+}
+
+#hero-section h2 {
+    color: #858ea1;
+    margin: 10px 0 30px 0;
+    font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    #hero-section {
+        height: 100vh;
+    }
+
+    #hero-section .hero-section-img {
+        text-align: center;
+    }
+
+    #hero .hero-section-img img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero-section {
+        height: auto;
+    }
+
+    #hero-section h1 {
+        font-size: 28px;
+        font-family: "FuturaBT-Book" !important;
+
+    }
+
+    #hero-section h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        font-family: "FuturaBT-Book" !important;
+    }
+
+    #hero-section .hero-section-img img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 575px) {
+    #hero-section .hero-section-img img {
+        width: 80%;
+    }
+}
+
+.section-one-image {
+    height: 300px;
+    width: 400px;
+}
+
+.section-two-backgroundimage {
+    background-image: url("https://res.cloudinary.com/dgqrpdjy1/image/upload/v1631276877/Ellipse_1_copy_2_2x_ytbb3b.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 280px 280px;
+    padding: 20px;
+}
+
+.section-two-mobile-backgroundimage {
+    background-image: url("https://res.cloudinary.com/dgqrpdjy1/image/upload/v1631276877/Ellipse_1_copy_2_2x_ytbb3b.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 180px 180px;
+    padding: 20px;
+}
+
+.section-three-backgroundimage {
+    background-image: url("https://res.cloudinary.com/dgqrpdjy1/image/upload/v1631343621/Ellipse_1_copy_3_2x_akeese.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 280px 280px;
+    padding: 20px;
+
+}
+
+.section-three-mobile-backgroundimage {
+    background-image: url("https://res.cloudinary.com/dgqrpdjy1/image/upload/v1631343621/Ellipse_1_copy_3_2x_akeese.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 180px 180px;
+    padding: 20px;
+}
+
+.section-three-image {
+    margin-left: 210px;
+}
+
+.section-one-text-two {
+    font-size: 26px !important;
+    color: #ED842E !important;
+    font-family: "FuturaBT-Book";
+}
+
+.image-one-size {
+    height: 250px;
+    width: 350px;
+}
+
+.section-two-text-one {
+    font-size: 28px !important;
+    color: #ED842E !important;
+    font-family: "FuturaBT-Book" !important;
+}
+
+.section-two-text-two {
+    font-size: 18px !important;
+    font-family: "FuturaBT-Book" !important;
+}
+
+.section-three-text-one {
+    font-size: 28px !important;
+    font-family: "FuturaBT-Book" !important;
+    color: #AB5AA1 !important;
+}
+
+.section-three-text-two {
+    font-size: 18px !important;
+    font-family: "FuturaBT-Book" !important;
+}
+
+.read-more-button {
+    color: #FFFFFF;
+    background-color: #ED842E;
+    border-radius: 15px;
+    border-width: 0;
+    height: 35px;
+    width: 100px;
+    font-size: 12px;
+    font-family: "FuturaBT-Book";
+}
+
+.section-two-image {
+    width: 350px;
+    height: 250px;
+
+}
+
+.read-more-button-two {
+    color: #FFFFFF;
+    background-color: #AB5AA1;
+    border-radius: 15px;
+    border-width: 0;
+    height: 35px;
+    width: 100px;
+    font-size: 12px;
+    font-family: "FuturaBT-Book";
+}
+
+/*Why primor?*/
+
+.container-background-color {
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+
+.container-main-heading {
+    color: #AB5AA1;
+}
+
+.whyprimor-button-one {
+    color: #FFFFFF;
+    background-color: #AB5AA1;
+    border-radius: 15px;
+    border-width: 0;
+    width: 235px;
+    height: 35px;
+
+}
+
+.whyprimor-button-two {
+    color: #AB5AA1;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border-width: 0;
+    width: 205px;
+    height: 35px;
+
+}
+
+.whyprimor-button-three {
+    color: #AB5AA1;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border-width: 0;
+    width: 205px;
+    height: 35px;
+
+}
+
+.whyprimor-button-four {
+    color: #AB5AA1;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border-width: 0;
+    width: 205px;
+    height: 35px;
+
+}
+
+/*News & press relese*/
+
+.section-main-heading {
+    color: #AB5AA1;
+}
+
+.section-box-container .section-box {
+    box-shadow: 0px 0 10px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-box-margin {
+    margin-bottom: 10px;
+}
+
+.section-img {
+    overflow: hidden;
+    margin: -30px -30px 15px -30px;
+    position: relative;
+}
+
+.box-title {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "FuturaBT-Book";
+    font-weight: 700;
+    margin-bottom: 18px;
+    position: relative;
+
+}
+
+.digital-health-records {
+    color: #ffffff;
+}
+
+.box-container-color {
+    background-color: #ED842E;
+}
+
+.box-container-one {
+    background-color: #AB5AA1;
+    margin-left: -150px;
+    border-radius: 25px;
+    border-top-left-radius: 0px !important;
+    padding: 20px;
+
+}
+
+.box-container-one-mobile {
+    background-color: #AB5AA1;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.box-container-text-one {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: "FuturaBT-Book";
+}
+
+.box-container-text-two {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "FuturaBT-Book";
+}
+
+.container-two-background-color {
+    background-color: #FFFFFF;
+    padding: 10px;
+
+
+}
+
+.card-container-one {
+    background-color: #ED842E;
+    padding: 30px;
+}
+
+.card-container-one-image {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-position: center;
+}
+
+.card-container-two {
+    background-color: #ED842E;
+    padding: 30px;
+
+
+}
+
+.card-container-three {
+    background-color: #ED842E;
+    padding: 30px;
+
+
+}
+
+/*footer*/
+
+.card-container-text-one {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.container-three-background-color {
+    background-color: #222222;
+    padding: 20px;
+}
+
+.footer-company-text {
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: left;
+}
+
+.footer-company-ul {
+    color: #999999;
+    list-style-type: none;
+
+}
+
+.footer-about-text {
+    color: #999999;
+    font-size: 16px;
+
+}
+
+.copyright-text {
+    color: #999999;
+}
+
+.social-icons {
+    color: #999999;
+    margin: 10px;
+}
